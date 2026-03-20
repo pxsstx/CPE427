@@ -55,7 +55,7 @@ ip address 20.20.20.2 255.255.255.252
 no shutdown
 exit
 
-interface g0/1
+interface g0/0
 ip address 50.50.50.1 255.255.255.252
 no shutdown
 exit
@@ -174,7 +174,7 @@ network 192.168.2.0 0.0.0.255 area 20
 end
 ```
 
-# RT20
+# RT30
 
 ```bash
 enable
